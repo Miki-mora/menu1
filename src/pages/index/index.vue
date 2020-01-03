@@ -1,31 +1,21 @@
 <template>
   <div>
-    <i-grid>
-    <i-grid-item>
+    <i-grid i-class="no-border">
+    <i-grid-item v-for="grid in grids" :key="grid" i-class="no-border">
         <i-grid-icon>
-            <image src="/static/images/user.png" />
+            <image :src="grid.image" />
         </i-grid-icon>
-        <i-grid-label>中餐</i-grid-label>
-    </i-grid-item>
-    <i-grid-item>
-        <i-grid-icon>
-            <image src="/static/images/user.png" />
-        </i-grid-icon>
-        <i-grid-label>日韩料理</i-grid-label>
-    </i-grid-item>
-    <i-grid-item>
-        <i-grid-icon>
-            <image src="/static/images/user.png" />
-        </i-grid-icon>
-        <i-grid-label>西餐</i-grid-label>
-    </i-grid-item>
-    <i-grid-item>
-        <i-grid-icon>
-            <image src="/static/images/user.png" />
-        </i-grid-icon>
-        <i-grid-label>披萨意面</i-grid-label>
+        <i-grid-label>{{grid.title}}</i-grid-label>
     </i-grid-item>
   </i-grid>
+  <i-panel :title="title_name">
+    <view style="padding: 15px;">
+      <i-card v-for="item in top" :key="item" i-class="split" :extra="item.name" :thumb="item.image">
+          <view slot="content">{{item.remark}}</view>
+          <view slot="footer">{{item.address}}</view>
+      </i-card>
+    </view>
+  </i-panel>
   </div>
 </template>
 
@@ -33,6 +23,19 @@
 export default {
   data () {
     return {
+      title_name: "热门",
+      grids: [
+        {title:"中餐",image:"/static/images/1.png"},
+        {title:"日韩料理",image:"/static/images/2.png"},
+        {title:"西餐",image:"/static/images/3.png"},
+        {title:"泰国菜",image:"/static/images/4.png"}
+      ],
+      top: [
+        {name:"菜谱1",address:"地址1",image:"https://i.loli.net/2017/08/21/599a521472424.jpg",remark:"介绍1"},
+        {name:"菜谱2",address:"地址2",image:"https://i.loli.net/2017/08/21/599a521472424.jpg",remark:"介绍2"},
+        {name:"菜谱3",address:"地址3",image:"https://i.loli.net/2017/08/21/599a521472424.jpg",remark:"介绍3"},
+        {name:"菜谱4",address:"地址4",image:"https://i.loli.net/2017/08/21/599a521472424.jpg",remark:"介绍4"}
+      ]
     }
   },
 
@@ -45,4 +48,10 @@ export default {
 </script>
 
 <style scoped>
+div >>> .no-border{
+  border-width: 0pt;
+}
+div >>> .split{
+  margin-bottom: 10pt;
+}
 </style>
