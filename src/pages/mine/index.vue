@@ -44,10 +44,10 @@ export default {
           icon: 'warning',
           duration: 2000
         })
-        // TODO:将推荐数据提交到云数据库
+        
       } else {
         wx.showToast({
-          title: '信息不完整',
+          title: '信息填写不完整',
           icon: 'none',
           duration: 2000
         })
