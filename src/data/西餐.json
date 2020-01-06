@@ -1,6 +1,6 @@
 [
-    {"name":"芝士焗土豆泥","address":"口味：鲜香","image":"/static/images/x1.jpg","remark":"主要食材：土豆、芝士酱、洋葱丁牛肉"},
-    {"name":"新奥尔良烤翅","address":"口味：甜味、咸味","image":"/static/images/x2.jpg","remark":"主要食材：鸡翅，植物油"},
-    {"name":"煎牛排","address":"口味：咸、嫩","image":"/static/images/x3.jpg","remark":"主要食材：牛排"},
-    {"name":"罗宋汤","address":"口味：酸中带甜、甜中飘香、肥而不腻、鲜滑爽口 ","image":"/static/images/x4.jpg","remark":"主要食材：奶油、洋葱、胡萝卜丁、马铃薯丁、白萝卜丁、牛高汤、牛肉丁、高丽菜、蕃茄、黑胡椒粉、月桂叶、盐、Sour Cream"}
+    {"name":"芝士焗土豆泥（鲜香）","address":"来源地址：湖北省-武汉市-武昌区-和平大道积玉桥地铁站d出口金地国际花园1号","image":"/static/images/x1.jpg","remark":"主要食材：土豆、芝士酱、洋葱丁牛肉"},
+    {"name":"新奥尔良烤翅（甜咸）","address":"来源地址：湖北省-武汉市-武昌区-融侨华府1栋1层5号商铺","image":"/static/images/x2.jpg","remark":"主要食材：鸡翅，植物油"},
+    {"name":"煎牛排（咸嫩）","address":"来源地址：湖北省-武汉市-武昌区-中央文化区地块一期壹号公馆二组团门口","image":"/static/images/x3.jpg","remark":"主要食材：牛排"},
+    {"name":"罗宋汤（鲜滑爽口）","address":"来源地址：湖北省-武汉市-江岸区-汇通路15附3号","image":"/static/images/x4.jpg","remark":"主要食材：奶油、洋葱、胡萝卜丁、马铃薯丁、白萝卜丁、牛高汤、牛肉丁、高丽菜、蕃茄、黑胡椒粉、月桂叶、盐、Sour Cream"}
 ]

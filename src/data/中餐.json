@@ -1,6 +1,6 @@
 [
-    {"name":"鱼香肉丝","address":"口味：咸甜、辣、鱼香味","image":"/static/images/z1.png","remark":"主要食材：猪肉、水发玉兰片,木耳、泡红椒、肉丝、胡萝卜、青椒、洋葱、木耳"},
-    {"name":"红烧肉","address":"口味：香甜、肥而不腻、美味可口","image":"/static/images/z2.jpg","remark":"主要食材：带皮五花肉，白糖，生抽，调料酒，八角，葱段，蒜，生姜，老抽，香叶，盐，味精"},
-    {"name":"糖醋排骨","address":"口味：酸甜","image":"/static/images/z3.jpg","remark":"主要食材：排骨，葱，姜，糖，醋，食盐"},
-    {"name":"宫保鸡丁","address":"口味：干、香、甜、辣","image":"/static/images/z4.jpeg","remark":"主要食材：鸡脯肉、花生米、干辣椒"}
+    {"name":"鱼香肉丝（咸甜辣）","address":"来源地址：湖北省-武汉市-武昌区-徐家棚街街道友谊大道338号美城清芷园","image":"/static/images/z1.png","remark":"主要食材：猪肉、水发玉兰片,木耳、泡红椒、肉丝、胡萝卜、青椒、洋葱、木耳"},
+    {"name":"红烧肉（香甜）","address":"来源地址：湖北省-武汉市-武昌区-团结大道318号","image":"/static/images/z2.jpg","remark":"主要食材：带皮五花肉，白糖，生抽，调料酒，八角，葱段，蒜，生姜，老抽，香叶，盐，味精"},
+    {"name":"糖醋排骨（酸甜）","address":"来源地址：湖北省-武汉市-武昌区-友谊大道346","image":"/static/images/z3.jpg","remark":"主要食材：排骨，葱，姜，糖，醋，食盐"},
+    {"name":"宫保鸡丁（香甜辣）","address":"来源地址：湖北省-武汉市-武昌区-黄鹤楼街办事处彭刘杨路232号","image":"/static/images/z4.jpeg","remark":"主要食材：鸡脯肉、花生米、干辣椒"}
 ]

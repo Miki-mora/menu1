@@ -43,10 +43,10 @@ export default {
         {title:"泰国菜",image:"/static/images/4.png"}
       ],
       top: [
-        {name:"糖醋里脊",address:"口味：酸甜",image:"/static/images/z.jpg",remark:"主要食材：里脊肉，淀粉"},
-        {name:"韩国炸鸡",address:"口味：甜辣",image:"/static/images/r.jpg",remark:"主要食材：鸡腿，甜辣酱"},
-        {name:"意大利面",address:"口味：紧实而有弹性",image:"/static/images/x.jpg",remark:"主要食材：西红柿、洋葱、黄油、罗勒、黑胡椒、盐、意大利面、火腿、青椒"},
-        {name:"冬阴功汤",address:"口味：酸酸辣辣香香甜甜，五味俱全",image:"/static/images/t.jpeg",remark:"主要食材：柠檬叶，香茅，辣椒，虾"}
+        {name:"糖醋里脊(酸甜)",address:"来源地址：湖北省-武汉市-洪山区-珞珈山路19号中商平价购物广场5楼(近武汉大学正门)",image:"/static/images/z.jpg",remark:"主要食材：里脊肉，淀粉"},
+        {name:"韩国炸鸡（甜辣）",address:"来源地址：湖北省-武汉市-武昌区-学院路9附1号",image:"/static/images/r.jpg",remark:"主要食材：鸡腿，甜辣酱"},
+        {name:"意大利面（筋道）",address:"来源地址：湖北省-武汉市-武昌区-融侨华府1栋1层5号商铺",image:"/static/images/x.jpg",remark:"主要食材：西红柿、洋葱、黄油、罗勒、黑胡椒、盐、意大利面、火腿、青椒"},
+        {name:"冬阴功汤（酸辣香甜）",address:"来源地址：湖北省-武汉市-武昌区-水果湖街街道水果湖街道汉街第三街环球国际中心4号楼K6-4-3",image:"/static/images/t.jpeg",remark:"主要食材：柠檬叶，香茅，辣椒，虾"}
       ],
       imgUrls: [
         '/static/images/c.jpg',

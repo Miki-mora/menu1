@@ -1,6 +1,6 @@
 [
-    {"name":"泰式菠萝饭","address":"口味：香甜可口","image":"/static/images/t1.jpg","remark":"主要食材：菠萝、虾、米饭、杂菜"},
-    {"name":"咖喱炒蟹","address":"口味：香浓滑口","image":"/static/images/t2.jpg","remark":"主要食材：大红蟹、调制的咖喱汁、蛋浆"},
-    {"name":"泰式炒面","address":"口味：独特","image":"/static/images/t3.jpeg","remark":"主要食材：泰国干米、新鲜虾、泰式鱼酱、鲜鸡蛋、泰式辣椒酱、豆腐、腌制甜萝卜、虾干、细葱、豆芽、烤花生、干辣椒末、酸橙、椰糖、鸡汁"},
-    {"name":"泰国芒果糯米饭","address":"口味：香甜","image":"/static/images/t4.png","remark":"主要食材：芒果，糯米"}
+    {"name":"泰式菠萝饭（香甜）","address":"来源地址：湖北省-武汉市-武昌区-中北路31号凯德1818F6","image":"/static/images/t1.jpg","remark":"主要食材：菠萝、虾、米饭、杂菜"},
+    {"name":"咖喱炒蟹（香浓）","address":"来源地址：湖北省-武汉市-江汉区-发展大道179号","image":"/static/images/t2.jpg","remark":"主要食材：大红蟹、调制的咖喱汁、蛋浆"},
+    {"name":"泰式炒面（独特）","address":"来源地址：江苏省-南京市-秦淮区-中山南路三山街地铁站4号出口左转5米","image":"/static/images/t3.jpeg","remark":"主要食材：泰国干米、新鲜虾、泰式鱼酱、鲜鸡蛋、泰式辣椒酱、豆腐、腌制甜萝卜、虾干、细葱、豆芽、烤花生、干辣椒末、酸橙、椰糖、鸡汁"},
+    {"name":"泰国芒果糯米饭（香甜）","address":"来源地址：江苏省-南京市-秦淮区-建康路1号鹏欣·水游城B1","image":"/static/images/t4.png","remark":"主要食材：芒果，糯米"}
 ]

@@ -1,6 +1,6 @@
 [
-    {"name":"韩式炒年糕","address":"口味：甜味偏辣","image":"/static/images/r1.jpg","remark":"主要食材：年糕、甜不辣或竹轮、白芝麻、韩式辣椒酱、砂糖、洋葱、葱、高丽菜"},
-    {"name":"石锅拌饭","address":"口味：咸、香、甜、辣","image":"/static/images/r2.jpg","remark":"主要食材：胡萝卜、小香肠、新鲜香菇、菠菜、豆芽、韩式辣酱"},
-    {"name":"章鱼小丸子","address":"口味：味鲜而香","image":"/static/images/r3.jpg","remark":"主要食材：章鱼丸粉、海鲜酱、甜味酱、沙拉酱、芥末酱、辣椒酱"},
-    {"name":"日式拉面","address":"口味：鲜香","image":"/static/images/r4.jpg","remark":"主要食材：拉面、荞麦面"}
+    {"name":"韩式炒年糕（甜辣）","address":"来源地址：江苏省-南京市-建邺区-水西门大街276-12号","image":"/static/images/r1.jpg","remark":"主要食材：年糕、甜不辣或竹轮、白芝麻、韩式辣椒酱、砂糖、洋葱、葱、高丽菜"},
+    {"name":"石锅拌饭（香甜辣）","address":"来源地址：江苏省-苏州市-姑苏区-永福桥浜15号石路步行街布丁酒店1层","image":"/static/images/r2.jpg","remark":"主要食材：胡萝卜、小香肠、新鲜香菇、菠菜、豆芽、韩式辣酱"},
+    {"name":"章鱼小丸子（味鲜）","address":"来源地址：湖北省-武汉市-江汉区-中山大道818号","image":"/static/images/r3.jpg","remark":"主要食材：章鱼丸粉、海鲜酱、甜味酱、沙拉酱、芥末酱、辣椒酱"},
+    {"name":"日式拉面（鲜香）","address":"来源地址：湖北省-武汉市-武昌区-沙湖南路特1号中百仓储沙湖店H-06号","image":"/static/images/r4.jpg","remark":"主要食材：拉面、荞麦面"}
 ]
