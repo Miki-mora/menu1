@@ -1,6 +1,6 @@
 [
-    {"name":"西餐1","address":"地址1","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"介绍1"},
-    {"name":"西餐2","address":"地址2","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"介绍2"},
-    {"name":"西餐3","address":"地址3","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"介绍3"},
-    {"name":"西餐4","address":"地址4","image":"https://i.loli.net/2017/08/21/599a521472424.jpg","remark":"介绍4"}
+    {"name":"芝士焗土豆泥","address":"口味：鲜香","image":"/static/images/x1.jpg","remark":"主要食材：土豆、芝士酱、洋葱丁牛肉"},
+    {"name":"新奥尔良烤翅","address":"口味：甜味、咸味","image":"/static/images/x2.jpg","remark":"主要食材：鸡翅，植物油"},
+    {"name":"煎牛排","address":"口味：咸、嫩","image":"/static/images/x3.jpg","remark":"主要食材：牛排"},
+    {"name":"罗宋汤","address":"口味：酸中带甜、甜中飘香、肥而不腻、鲜滑爽口 ","image":"/static/images/x4.jpg","remark":"主要食材：奶油、洋葱、胡萝卜丁、马铃薯丁、白萝卜丁、牛高汤、牛肉丁、高丽菜、蕃茄、黑胡椒粉、月桂叶、盐、Sour Cream"}
 ]
