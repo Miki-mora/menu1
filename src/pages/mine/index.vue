@@ -6,11 +6,13 @@
     </view>
     <open-data type="userNickName"></open-data>
     </view>
-    <i-panel title="~~~~~美味佳肴，我要推荐！！！！~~~~~">
-      <i-input :value="name" @change="changeName($event)" title="名称" autofocus placeholder="请输入菜名" maxlength="20" />
-      <i-input :value="reason" @change="changeReason($event)" title="推荐理由" placeholder="请输入推荐理由" maxlength="50" />
+    <i-panel center title="~~美味佳肴，值得推荐~~">
+      <i-input :value="name" @change="changeName($event)" title="菜肴名称" autofocus placeholder="请输入菜名" maxlength="20" />
+      <i-input :value="taste" @change="changeTaste($event)" title="菜肴口味" placeholder="请输入菜肴口味" maxlength="20" />
+      <i-input :value="remark" @change="changeRemark($event)" title="主要食材" placeholder="请输入主要食材" maxlength="50" />
+      <i-button @click="handleClick" type="error" shape="circle" size="small" >推 荐 佳 肴</i-button>
     </i-panel>
-    <i-button @click="handleClick" type="warning" :ghost="true" shape="circle" size="small" >我要推荐</i-button>
+    
   </div>
 </template>
 
@@ -19,7 +21,8 @@ export default {
   data () {
     return {
       name:"",
-      reason:""
+      taste:"",
+      remark:""
     }
   },
 
@@ -27,12 +30,15 @@ export default {
     changeName (event) {
       this.name = event.mp.detail.detail.value
     },
-    changeReason (event) {
-      this.reason = event.mp.detail.detail.value
+    changeTaste (event) {
+      this.taste = event.mp.detail.detail.value
+    },
+    changeRemark(event) {
+      this.remark = event.mp.detail.detail.value
     },
     
     handleClick () {
-      if (this.name && this.reason ) {
+      if (this.name && this.taste && this.remark) {
         wx.showToast({
           title: '推荐了' + this.name,
           icon: 'warning',
