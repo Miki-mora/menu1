@@ -1,14 +1,14 @@
 <template>
   <div>
-    <view class="userinfo">
+  <view class="userinfo">
     <view class="userinfo-avatar">
     <open-data type="userAvatarUrl"></open-data>
     </view>
     <open-data type="userNickName"></open-data>
-    </view>
+    </view>  
     <i-panel center title="~~美味佳肴，值得推荐~~">
       <i-input :value="name" @change="changeName($event)" title="菜肴名称" autofocus placeholder="请输入菜名" maxlength="20" />
-      <i-input :value="taste" @change="changeTaste($event)" title="菜肴口味" placeholder="请输入菜肴口味" maxlength="20" />
+      <i-input :value="taste" @change="changeTaste($event)" title="来源地址" placeholder="请输入来源地址" maxlength="20" />
       <i-input :value="remark" @change="changeRemark($event)" title="主要食材" placeholder="请输入主要食材" maxlength="50" />
       <i-button @click="handleClick" type="error" shape="circle" size="small" >推 荐 佳 肴</i-button>
     </i-panel>
@@ -44,10 +44,10 @@ export default {
           icon: 'warning',
           duration: 2000
         })
-        
+        // TODO:将推荐数据提交到云数据库
       } else {
         wx.showToast({
-          title: '信息填写不完整',
+          title: '信息不完整',
           icon: 'none',
           duration: 2000
         })
